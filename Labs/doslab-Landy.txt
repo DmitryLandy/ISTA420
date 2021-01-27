@@ -1,0 +1,29 @@
+C:\Users\dmitr\MSSA2021>tree /f
+Folder PATH listing for volume Windows
+Volume serial number is D012-C992
+C:.
+│   doshelp.txt
+│   helpdos.txt
+│   PowerShell_transcript.DESKTOP-D985IUD.3cFS_9Ox.20210111094828.txt
+│   PowerShell_transcript.DESKTOP-D985IUD.LdsZXst0.20210111101756.txt
+│   test1.txt
+│   test3.txt
+│
+├───CSharp
+├───Database
+├───ISTA220
+│   ├───Exercises
+│   ├───Homework
+│   └───Labs
+├───ISTA322
+│   ├───Exercises
+│   ├───Homework
+│   └───Labs
+├───ISTA420
+│   ├───Exercises
+│   ├───Homework
+│   └───Labs
+│           dosPromptLab.txt
+│
+├───Project
+└───testDir
