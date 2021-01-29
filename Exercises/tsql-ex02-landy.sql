@@ -1,6 +1,10 @@
 .echo on
 .headers on
 
+-- Name: Dmitry Landy
+-- File: tsql-ex02-landy.sql
+-- Date: January 23, 2021
+
 -- 1. List the company name, the contact name and the country of all customers in Poland.
 
 select companyName, contactname, country from customers where country like 'Poland';
