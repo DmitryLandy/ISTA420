@@ -21,14 +21,16 @@
 
 5. **Give an example of a subquery that returns multiple values. When would you use this kind of subquery?**
 - Subquery does not contain an aggregate function, but returns a list
+- select custid from customers;
 
 6. **Give an example of a subquery that returns table values. When would you use this kind of subquery?**
-- select * from customers where custid = (select * from sometable);
+- select * from customers;
+- set valued subqueries
 
 7. **What does the exists predicate do? Give an example.**
 - accepts a subquery as input and returns TRUE if the subquery returns any rows and FALSE otherwise.
 
--SELECT custid, companyname
+- SELECT custid, companyname
 FROM Sales.Customers AS C
 WHERE country = N'Spain'
   AND EXISTS
@@ -36,9 +38,9 @@ WHERE country = N'Spain'
      WHERE O.custid = C.custid);
 
 8. **What happens if we use the not operator before a predicate? Give an example.**
-- it gives us the opposite of the predicate result.
+- it gives us the opposite of the predicate result. Reverses the truth value.
 
--SELECT custid, companyname
+- SELECT custid, companyname
 FROM Sales.Customers
 WHERE custid NOT IN(SELECT O.custid
                     FROM Sales.Orders AS O);
