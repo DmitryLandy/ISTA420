@@ -37,7 +37,7 @@
 
 **10. What is a table valued function?**
 - reusable table expressions that support input parameters. 
-- Parameterized viewsm
+- Named block of code that returns a table value.
 
 **11. What does the APPLY operator do?**
 - It joins tables, but instead of evaluating them as a set (aka join) it evaluates the left first, then the right (which allow right to reference the left)
