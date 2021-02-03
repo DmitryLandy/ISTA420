@@ -66,4 +66,8 @@ select o.custid, o.orderid, o.orderdate,
 from sales.orders as o
 where o.shipcountry like 'Norway';
 
--------------------------------------
+------------------------------------
+
+
+
+
