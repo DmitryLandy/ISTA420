@@ -58,4 +58,12 @@ where c.custid in
 --70 10639 2015-08-20 62.50
 --70 10831 2016-01-14 263.50
 --70 10909 2016-02-26 30.00
---70 11015 2016-04-10 25.89select o.custid, o.orderid, o.orderdate,(select max(od.unitprice) from sales.OrderDetails as od		where o.orderid = od.orderid) as Highest_pricefrom sales.orders as owhere o.shipcountry like 'Norway';
+--70 11015 2016-04-10 25.89
+
+select o.custid, o.orderid, o.orderdate,
+(select max(od.unitprice) from sales.OrderDetails as od	
+	where o.orderid = od.orderid) as Highest_price
+from sales.orders as o
+where o.shipcountry like 'Norway';
+
+-------------------------------------
