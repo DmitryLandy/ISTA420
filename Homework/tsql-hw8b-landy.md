@@ -40,7 +40,7 @@ when not matched by source then
 **6. Write a typical INSERT OUTPUT statement.**
 
 - Insert into <table> OUTPUT <columns> subquery
-- 
+
 **7. Write a typical UPDATE OUTPUT statement.**
 
 - update <table> Set <column and value> OUTPUT <changed/updated columns> where <predicate>
