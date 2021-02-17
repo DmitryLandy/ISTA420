@@ -4,14 +4,14 @@ Date: 1/11/2020
 
 1. How does the book describe the difference between imperative and declarative languages?
 
-Declaritive: specify what to get 
-Imperative: specify how to get something
+- Declaritive: specify what to get 
+- Imperative: specify how to get something
 
 2. List three categories of command statements in SQL.
 
-Data Definition Language (DDL)
-Data Manipulation Language (DML)
-Data Control Language (DCL)
+- Data Definition Language (DDL)
+- Data Manipulation Language (DML)
+- Data Control Language (DCL)
 
 3. Give an informal deffinition of database as used in the expression "relational database management system." 
 Give an informal deffinition of database as used in the expression "Human Resources database."
