@@ -24,7 +24,7 @@ data with minimal or no redundancy and without sacrificing completeness. . . " B
 understanding of minimal or no redundancy and completeness. Why do you think that these values
 are important?
 
--Redundancy costs memory and efficiency. On the other side, being incomplete with data results in a lack of accuracy of that data.
+- Redundancy costs memory and efficiency. On the other side, being incomplete with data results in a lack of accuracy of that data.
 
 5. What is the difference between two-valued logic, three-valued logic, and four-valued logic? How does
 SQL implement three-valued predicate logic?
